@@ -1,10 +1,12 @@
 using UnityEngine;
 
+//INHERITANCE
 public class Cat : Animal
 {
     private bool canDoubleJump = false;
 
     //Cat can double jump
+    // POLYMORPHISM
     public override void Jump(Rigidbody playerRb)
     {
         if(Input.GetKeyDown(KeyCode.Space))

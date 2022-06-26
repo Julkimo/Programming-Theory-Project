@@ -6,7 +6,6 @@ public class Animal : MonoBehaviour
     [SerializeField] protected float maxSpeed;
     [SerializeField] protected float jumpForce;
 
-
     public bool isJumping = false;
     public Material animalMaterial;
 

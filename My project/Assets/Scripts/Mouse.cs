@@ -1,8 +1,10 @@
 using UnityEngine;
 
+//INHERITANCE
 public class Mouse : Animal
 {
     //Mouse can dash and move around mid air
+    // POLYMORPHISM
     public override void Move(Rigidbody playerRb, Vector3 direction)
     {
         if (playerRb.velocity.magnitude <= maxSpeed)
